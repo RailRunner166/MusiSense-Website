@@ -1,0 +1,45 @@
+html(lang='en')
+  head
+    title MusiSense &raquo; Home
+    meta(name='description' content='Making Sense of Music.')
+    link#favicon(rel='icon' href='https://glitch.com/edit/favicon-app.ico' type='image/x-icon')
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible' content='IE=edge')
+    meta(name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no')
+
+    // import the webpage's stylesheet
+    link(rel='stylesheet' href='/static/style.css')
+    link(rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css')
+
+    // import the webpage's client-side javascript file
+    script(src='/static/client.js' defer)
+  body
+    .jumbotron.jumbotron-fluid
+      .container
+        h1.display-3 MusiSense
+        p.lead Making Sense of Music.
+    .container
+      .row.align-items-center
+        .col-md-7.col-12
+          h2.display-4 What is MusiSense?
+        .col-md-5.col-12
+          p MusiSense is a music player & organizer that allows you to organize your music in the most convenient way for you.
+      .row.align-items-center
+        .col-md-7.col-12
+          h2.display-4 Where can I get it?
+        .col-md-5.col-12
+          p You can find MusiSense on the Google Play Store, and soon the App Store. Later there will also be a desktop app. :D
+      .row.align-items-center
+        .col-md-7.col-12
+          h2.display-4 Is MusiSense free?
+        .col-md-5.col-12
+          p Yes, but soon there will be ads. You will have the option to donate and have those ads removed, since nobody likes ads and the developer needs money to keep developing the app :P
+    footer.py-5.bg-dark.mt-auto.mb-0
+      .container
+        .row
+          .col-lg-6.text-center.text-lg-left.my-auto
+            ul.list-inline
+              li.list-inline-item
+                a.text-white(href='/') Home
+              li.list-inline-item
+                a.text-white(href='/privacy') Privacy Policy
