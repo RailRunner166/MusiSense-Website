@@ -11,4 +11,8 @@ app.get("/", (req, res) => {
   res.render("index");
 });
 
+app.get("/privacy", (req, res) => {
+  res.render("privacy");
+});
+
 app.listen(8080);
